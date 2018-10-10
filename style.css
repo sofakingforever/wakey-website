@@ -1,19 +1,13 @@
-
-/* @font-face {
-     font-family: "Bitstream Vera Serif Bold";
-     src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
-   } */
-
-/* .h1-centered {
-  margin-top: 80px;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 300;
-} */
+body {
+  background:  #210444
+}
 
 @media screen and (min-width: 601px) {
   h1 {
     font-size: 40px;
+  }
+  h3 {
+    font-size: 32px;
   }
 }
 
@@ -22,22 +16,10 @@
   h1 {
     font-size: 8vw;
   }
-}
-
-
-@media screen and (min-width: 601px) {
-  h3 {
-    font-size: 32px;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
   h3 {
     font-size: 6vw;
   }
 }
-
 
 
 
@@ -89,56 +71,6 @@ p { font-family: "Terminal Dosis"; font-size: 18px; font-style: normal; font-var
   width: 100%;
 }
 
-.menuBar {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menuItem {
-  display: inline;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav {
-    overflow: hidden;
-    visibility: hidden;
-  }
-
-
-}
-
-
-/* Add a black background color to the top navigation */
-.topnav {
-    /* background-color: #333; */
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-   font-family: "Terminal Dosis"; font-style: normal; font-variant: normal; font-weight: 700;
-    float: center;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    /* background-color: #ddd; */
-    color: #FFD940;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    /* background-color: #4CAF50; */
-    color: white;
-}
-
-
 
 /* Add a black background color to the top navigation */
 .bottomnav {
@@ -170,8 +102,12 @@ p { font-family: "Terminal Dosis"; font-size: 18px; font-style: normal; font-var
     color: white;
 }
 
-body {
-  background:  #210444
+a.downloadLink {
+  color:#ffffff;
+}
+
+a.downloadLink:hover {
+  color:#FFD940;
 }
 
 .googlePlay {
@@ -188,14 +124,4 @@ body {
   background: url("./images/google_play_hover.svg");
   border: none;
   cursor: pointer;
-}
-
-.sun {
-  max-width: 100%;
-  width:674px;
-  height:160px;
-  background: url("./images/sun_blank.png");
-  background-position: top center;
-  overflow: visible;
-  margin-top: 40px;
 }
