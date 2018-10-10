@@ -44,6 +44,11 @@
     <!-- Custom Script for Google Play link -->
     <script>
     function onGooglePlayClick(){
+      ga('send', 'event', 'outbound', 'click', 'https://bit.ly/2Liggs7', {
+    'transport': 'beacon'
+    // 'hitCallback': function(){document.location = url;}
+    });
+
       window.open("https://bit.ly/2Liggs7","_self");
     }
     </script>
