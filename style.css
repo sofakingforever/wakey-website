@@ -1,5 +1,9 @@
 body {
-  background:  #210444
+  background:  #210444 url("./images/stars.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: top center;
+
 }
 
 @media screen and (min-width: 601px) {
@@ -55,16 +59,6 @@ p { font-family: "Terminal Dosis"; font-size: 18px; font-style: normal; font-var
 
 
   }
-
-  .stars {
-    background: url("./images/stars.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    height:1500px;
-    margin-top: -20px;
-    padding-bottom: 20px;
-}
 
 .inner {
   position: absolute;

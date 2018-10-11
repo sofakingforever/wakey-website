@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Not Found - Wakey</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fav Icon -->
+  <link rel="shortcut icon" href="https://wakey.app/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://wakey.app/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="192x192" href="favicon-hires.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Terminal+Dosis" />
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127115912-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-127115912-1');
+        </script>
+
+
+
+</head>
+
+<body style="margin:0px;">
+    <!-- Main content div -->
+  <div class="inner">
+
+    <h1 class="h1-centered"><a style="color:#FFD940; line-height:80px;">404</a><br />Page Not Found</h1>
+    <center>
+      <img src="./images/moon_worried.png" maxWidth="80%" width="320px"/>
+    </center>
+
+    <!-- <h3 class="h3-centered">This is just a 404 error</h3> -->
+
+
+    <h4 style="width: 480px; max-width: 70%; text-align:center; margin-left:auto;margin-right:auto; margin-top:20px; font-size:22px;">
+      We can't seem to find the page you're looking for.
+    </h4>
+
+
+                <div class="bottomnav" style="margin:32px; text-align:center;  max-width:100%;">
+                  <div style="">
+                    <a href="./index.html?ref=404">Oops...</a>
+                  </div>
+                </div>
+
+
+  </div>
+
+</body>
+</html>
